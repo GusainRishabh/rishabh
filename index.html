@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <title>Rishabh Gusain</title>
 </head>
 
@@ -32,7 +33,16 @@
     <div class="main" id="main">
         <div class="left">
             <h5>Hey, I am Rishabh</h5>
-            <h3>I am <span>a full stack Web app</span> Developer</h3>
+            <h3><span id="element"></span></h3>
+            <!-- <h3 id="element"></h3> -->
+            <!-- Setup and start animation! -->
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['Full Stack web Developer', 'Front End Developer', 'Back End Developer', 'DataBase'],
+                    typeSpeed: 50,loop:"true"
+                });
+            </script>
+            <!-- <h3>I am <span>a full stack Web app</span> Developer</h3> -->
             <p>
                 Passionate about crafting dynamic web applications, skilled in both front-end and back-end technologies
                 for seamless user experiences.
@@ -43,24 +53,25 @@
                 </a>
                 <a href="https://twitter.com/Rishabh152022" target="_blank">
                     <i class='bx bxl-twitter'></i>
-    
+
                 </a>
                 <a href="https://www.linkedin.com/in/rishabh-gusain-1a319b299/" target="_blank">
                     <i class='bx bxl-linkedin-square'></i>
-    
+
                 </a>
                 <a href="https://www.facebook.com/RishabhGusain1520" target="_blank">
                     <i class='bx bxl-facebook-square'></i>
                 </a>
             </div>
-            <a class="btn line-btn-dark btn-icon btn-radius" href="cv Rishabh.pdf" title="Rishabh Cv" download  id="cv">Downlod CV</a>
-            
+            <a class="btn line-btn-dark btn-icon btn-radius" href="cv Rishabh.pdf" title="Rishabh Cv" download
+                id="cv">Downlod CV</a>
+
         </div>
         <div class="right">
             <img src="80621b62eafb381482d4f70fee7df515.jpg">
-            
+
         </div>
-       
+
     </div>
 
     <div class="skills" id="skills">
@@ -71,43 +82,43 @@
                 <div class="icon"><i class='bx bx-directions'></i></div>
                 <h4>Frontend Technologies</h4>
                 <p>
-                    <ul><strong>HTML</strong></ul>
-                    <ul><strong>CSS</strong></ul>
-                    <ul><strong>JavaScript</strong></ul>
-                    <ul><strong>REACT</strong></ul>
-                    <ul><strong>Angular</strong></ul>
+                <ul><strong>HTML</strong></ul>
+                <ul><strong>CSS</strong></ul>
+                <ul><strong>JavaScript</strong></ul>
+                <ul><strong>REACT</strong></ul>
+                <ul><strong>Angular</strong></ul>
                 </p>
             </div>
             <div class="item">
                 <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
                 <h4>Backend Technologies</h4>
                 <p>
-                    <ul><strong>Node.js</strong></ul>
-                    <ul><strong>Express</strong></ul>
-                    <ul><strong>Flask</strong></ul>
-                    <ul><strong>NEXT JS</strong></ul>
-                    <ul><strong>Django</strong></ul>
+                <ul><strong>Node.js</strong></ul>
+                <ul><strong>Express</strong></ul>
+                <ul><strong>Flask</strong></ul>
+                <ul><strong>NEXT JS</strong></ul>
+                <ul><strong>Django</strong></ul>
                 </p>
             </div>
-            
+
             <div class="item">
                 <div class="icon"><i class='bx bx-code-alt'></i></i></div>
                 <h4>DataBase</h4>
                 <p>
-                    <ul><strong>MySQL</strong></ul>
-                    <ul><strong>MongoDB</strong></ul>
-                    <ul><strong>SQL SERVER</strong></ul>
+                <ul><strong>MySQL</strong></ul>
+                <ul><strong>MongoDB</strong></ul>
+                <ul><strong>SQL SERVER</strong></ul>
                 </p>
             </div>
             <div class="item">
                 <div class="icon"><i class='bx bxl-figma'></i></i></div>
                 <h4>UI & UX Design</h4>
                 <p>
-                   <ul><strong>Figma</strong></ul>
-                   <ul><strong>Sketch</strong></ul>
-                   <ul><strong>Canva</strong></ul>
-                   <ul><strong>Adobe XD</strong></ul>
-                   <ul><strong>InVision</strong></ul>
+                <ul><strong>Figma</strong></ul>
+                <ul><strong>Sketch</strong></ul>
+                <ul><strong>Canva</strong></ul>
+                <ul><strong>Adobe XD</strong></ul>
+                <ul><strong>InVision</strong></ul>
                 </p>
             </div>
         </div>
@@ -148,7 +159,8 @@
                 <div class="info">
                     <h4>E-Commerce Platform</h4>
                     <p>
-                        Developed a full-featured e-commerce platform for a retail client, including user authentication, product catalog, shopping cart, and payment integration.
+                        Developed a full-featured e-commerce platform for a retail client, including user
+                        authentication, product catalog, shopping cart, and payment integration.
                     </p>
                     <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
                 </div>
@@ -158,7 +170,8 @@
                 <div class="info">
                     <h4>Restrunt Website</h4>
                     <p>
-                        Developed a comprehensive web application for a restaurant, including features such as menu display, online reservations, customer reviews, and order management.
+                        Developed a comprehensive web application for a restaurant, including features such as menu
+                        display, online reservations, customer reviews, and order management.
                     </p>
                     <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
                 </div>
@@ -168,7 +181,8 @@
                 <div class="info">
                     <h4>Data Base</h4>
                     <p>
-                        Designed and managed the database architecture for a large-scale e-commerce platform, handling product catalog, customer information, orders, payments, and inventory management.                    </p>
+                        Designed and managed the database architecture for a large-scale e-commerce platform, handling
+                        product catalog, customer information, orders, payments, and inventory management. </p>
                     <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -242,7 +256,11 @@
             </div>
         </div>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27539.353277750943!2d77.88429037945957!3d30.367453334766942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f2ae7f373ee85%3A0x52ba1059ec814650!2sJhajra%20Range%2C%20Uttarakhand%20248007!5e0!3m2!1sen!2sin!4v1719152265600!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    <footer>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27539.353277750943!2d77.88429037945957!3d30.367453334766942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f2ae7f373ee85%3A0x52ba1059ec814650!2sJhajra%20Range%2C%20Uttarakhand%20248007!5e0!3m2!1sen!2sin!4v1719152265600!5m2!1sen!2sin"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
         <div class="top">
             <div class="logo">
                 <img src="80621b62eafb381482d4f70fee7df515.jpg">
